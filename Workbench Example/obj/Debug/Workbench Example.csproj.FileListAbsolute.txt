@@ -95,8 +95,6 @@ C:\Users\MEGABOT\Documents\GitHub\Workbench-Example\Workbench Example\bin\Debug\
 C:\Users\MEGABOT\Documents\GitHub\Workbench-Example\Workbench Example\bin\Debug\AvalonDock.Themes.VS2010.dll
 C:\Users\MEGABOT\Documents\GitHub\Workbench-Example\Workbench Example\bin\Debug\AvalonDock.Themes.VS2013.dll
 C:\Users\MEGABOT\Documents\GitHub\Workbench-Example\Workbench Example\bin\Debug\MahApps.Metro.dll
-C:\Users\MEGABOT\Documents\GitHub\Workbench-Example\Workbench Example\bin\Debug\System.Windows.Interactivity.dll
-C:\Users\MEGABOT\Documents\GitHub\Workbench-Example\Workbench Example\bin\Debug\System.Windows.Interactivity.xml
 C:\Users\MEGABOT\Documents\GitHub\Workbench-Example\Workbench Example\bin\Debug\ca-ES\AvalonDock.resources.dll
 C:\Users\MEGABOT\Documents\GitHub\Workbench-Example\Workbench Example\bin\Debug\cs-CZ\AvalonDock.resources.dll
 C:\Users\MEGABOT\Documents\GitHub\Workbench-Example\Workbench Example\bin\Debug\de\AvalonDock.resources.dll
@@ -114,15 +112,6 @@ C:\Users\MEGABOT\Documents\GitHub\Workbench-Example\Workbench Example\bin\Debug\
 C:\Users\MEGABOT\Documents\GitHub\Workbench-Example\Workbench Example\bin\Debug\sv\AvalonDock.resources.dll
 C:\Users\MEGABOT\Documents\GitHub\Workbench-Example\Workbench Example\bin\Debug\zh-Hans\AvalonDock.resources.dll
 C:\Users\MEGABOT\Documents\GitHub\Workbench-Example\Workbench Example\bin\Debug\zh-Hant\AvalonDock.resources.dll
-C:\Users\MEGABOT\Documents\GitHub\Workbench-Example\Workbench Example\bin\Debug\de\System.Windows.Interactivity.resources.dll
-C:\Users\MEGABOT\Documents\GitHub\Workbench-Example\Workbench Example\bin\Debug\en\System.Windows.Interactivity.resources.dll
-C:\Users\MEGABOT\Documents\GitHub\Workbench-Example\Workbench Example\bin\Debug\es\System.Windows.Interactivity.resources.dll
-C:\Users\MEGABOT\Documents\GitHub\Workbench-Example\Workbench Example\bin\Debug\fr\System.Windows.Interactivity.resources.dll
-C:\Users\MEGABOT\Documents\GitHub\Workbench-Example\Workbench Example\bin\Debug\it\System.Windows.Interactivity.resources.dll
-C:\Users\MEGABOT\Documents\GitHub\Workbench-Example\Workbench Example\bin\Debug\ja\System.Windows.Interactivity.resources.dll
-C:\Users\MEGABOT\Documents\GitHub\Workbench-Example\Workbench Example\bin\Debug\ko\System.Windows.Interactivity.resources.dll
-C:\Users\MEGABOT\Documents\GitHub\Workbench-Example\Workbench Example\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
-C:\Users\MEGABOT\Documents\GitHub\Workbench-Example\Workbench Example\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
 C:\Users\MEGABOT\Documents\GitHub\Workbench-Example\Workbench Example\obj\Debug\Resources\MessageBoxes\CustomExceptionMessageBox\ExceptionMessageBox.baml
 C:\Users\MEGABOT\Documents\GitHub\Workbench-Example\Workbench Example\obj\Debug\Resources\MessageBoxes\CustomMessageBox\MessageBoxView.baml
 C:\Users\MEGABOT\Documents\GitHub\Workbench-Example\Workbench Example\obj\Debug\View\Dialogs\AboutView.baml
