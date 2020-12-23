@@ -10,7 +10,8 @@
         ShowIconOnTitleBar="True"
         SaveWindowPosition="True"
         WindowTransitionsEnabled="False"
-        NonActiveWindowTitleBrush="LightGray">
+        NonActiveWindowTitleBrush="LightGray"
+        WindowStartupLocation="CenterOwner">
 
     <!--Window Input Bindings-->
     <Window.InputBindings>
@@ -37,16 +38,16 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
                 <!--Application Name-->
-                <Label x:Name="lbl_AplicationNameLabel" Grid.Row="0" Grid.Column="0" Margin="3" Content="Aplication Name:"/>
-                <Label x:Name="lbl_AplicatationName" Grid.Row="0" Grid.Column="1" Margin="3" Content="Workbench Example"/>
+                <Label x:Name="lbl_ApplicationNameLabel" Grid.Row="0" Grid.Column="0" Margin="3" Content="Application Name:"/>
+                <Label x:Name="lbl_ApplicatationName" Grid.Row="0" Grid.Column="1" Margin="3" Content="Workbench Example"/>
                 <!--Version-->
-                <Label x:Name="lbl_AplicationVersionLabel" Grid.Row="0" Grid.Column="2" Margin="3" Content="Version:"/>
-                <Label x:Name="lbl_AplicationVersion" Grid.Row="0" Grid.Column="3" Margin="3" Content="{Binding Version}"/>
+                <Label x:Name="lbl_ApplicationVersionLabel" Grid.Row="0" Grid.Column="2" Margin="3" Content="Version:"/>
+                <Label x:Name="lbl_ApplicationVersion" Grid.Row="0" Grid.Column="3" Margin="3" Content="{Binding Version}"/>
             </Grid>
         </Grid>
 
         <!--Description-->
-        <TextBlock x:Name="tbk_AplicationDescription" Grid.Row="2" TextWrapping="Wrap" Margin="8">
+        <TextBlock x:Name="tbk_ApplicationDescription" Grid.Row="2" TextWrapping="Wrap" Margin="8">
             Developed with visual studio 2013 by <Hyperlink NavigateUri="https://www.linkedin.com/in/whurter/" RequestNavigate="Hyperlink_RequestNavigate" >Werner Hurter.</Hyperlink>
         </TextBlock>
 

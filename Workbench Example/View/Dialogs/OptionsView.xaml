@@ -10,7 +10,8 @@
         ShowIconOnTitleBar="True"
         SaveWindowPosition="True"
         WindowTransitionsEnabled="False"
-        NonActiveWindowTitleBrush="LightGray">
+        NonActiveWindowTitleBrush="LightGray"
+        WindowStartupLocation="CenterOwner">
 
     <!--Window Input Bindings-->
     <Window.InputBindings>
