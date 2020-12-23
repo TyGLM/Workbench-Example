@@ -1,5 +1,5 @@
 ﻿using System.Linq;
-using Xceed.Wpf.AvalonDock.Layout;
+using AvalonDock.Layout;
 
 namespace Workbench_Example.View.Pane
 {

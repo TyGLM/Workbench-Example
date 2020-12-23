@@ -32,7 +32,7 @@ Libraries used:
 	SOFTWARE.
      
    
-2. Xceed.Wpf.AvalonDock.dll 
+2. AvalonDock.dll 
    ~ AvalonDock is a docking windows control for WPF that lets you create customizable layouts using a full featured window docking system similar to what is found in many IDEs such as Visual Studio. 
    ~ https://avalondock.codeplex.com/
    ~ New BSD License
@@ -47,7 +47,7 @@ Libraries used:
 
 	THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
    
-3. Xceed.Wpf.AvalonDock.Themes.Aero.dll
-4. Xceed.Wpf.AvalonDock.Themes.Expression.dll
-5. Xceed.Wpf.AvalonDock.Themes.Metro.dll
-6. Xceed.Wpf.AvalonDock.Themes.VS2010.dll 
+3. AvalonDock.Themes.Aero.dll
+4. AvalonDock.Themes.Expression.dll
+5. AvalonDock.Themes.Metro.dll
+6. AvalonDock.Themes.VS2010.dll 

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-R:\Admin\Future Plans\Code\Workbench-Example\Workbench Example\obj\Debug\
+C:\Users\MEGABOT\Documents\GitHub\Workbench-Example\Workbench Example\obj\Debug\
 Workbench_Example
 none
 false
 DEBUG;TRACE
-R:\Admin\Future Plans\Code\Workbench-Example\Workbench Example\App.xaml
+C:\Users\MEGABOT\Documents\GitHub\Workbench-Example\Workbench Example\App.xaml
 6-2081929979
-6570095177
-40-772465735
-19-757924505
+1-1199111648
+37-301751098
+20-1378759717
 Resources\MessageBoxes\CustomExceptionMessageBox\ExceptionMessageBox.xaml;Resources\MessageBoxes\CustomMessageBox\MessageBoxView.xaml;View\Dialogs\AboutView.xaml;View\Dialogs\OptionsView.xaml;View\MainWindow.xaml;View\StartPageView.xaml;
 
-False
+True
 

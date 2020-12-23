@@ -9,10 +9,5 @@
 //------------------------------------------------------------------------------
 
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/libraries/mahapps.metro.dll")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/libraries/xceed.wpf.avalondock.dll")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/libraries/xceed.wpf.avalondock.themes.aero.dll")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/libraries/xceed.wpf.avalondock.themes.expression.dll")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/libraries/xceed.wpf.avalondock.themes.metro.dll")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/libraries/xceed.wpf.avalondock.themes.vs2010.dll")]
 
 

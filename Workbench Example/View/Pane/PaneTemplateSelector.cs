@@ -2,7 +2,7 @@
 using System.Windows.Controls;
 using Workbench_Example.ViewModel;
 using Workbench_Example.ViewModel.Tools;
-using Xceed.Wpf.AvalonDock.Layout;
+using AvalonDock.Layout;
 
 namespace Workbench_Example.View.Pane
 {

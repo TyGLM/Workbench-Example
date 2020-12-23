@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.Windows;
 using System.Windows.Threading;
 using Workbench_Example.ViewModel;
-using Xceed.Wpf.AvalonDock;
+using AvalonDock;
 
 namespace Workbench_Example.View
 {

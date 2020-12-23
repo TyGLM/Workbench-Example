@@ -11,7 +11,7 @@ using Workbench_Example.Model;
 using Workbench_Example.Properties;
 using Workbench_Example.Resources.Services.Interfaces;
 using Workbench_Example.ViewModel.Tools;
-using Xceed.Wpf.AvalonDock.Themes;
+using AvalonDock.Themes;
 using MVVMRelayCommand = Workbench_Example.Model.RelayCommand;
 
 namespace Workbench_Example.ViewModel
@@ -475,27 +475,27 @@ namespace Workbench_Example.ViewModel
             switch (Properties.Settings.Default.WorkBenchTheme)
             {
                 case "Dark":
-                    AvalonDockTheme = new Xceed.Wpf.AvalonDock.Themes.ExpressionDarkTheme();
+                    AvalonDockTheme = new AvalonDock.Themes.ExpressionDarkTheme();
                     break;
 
                 case "Light":
-                    AvalonDockTheme = new Xceed.Wpf.AvalonDock.Themes.ExpressionLightTheme();
+                    AvalonDockTheme = new AvalonDock.Themes.ExpressionLightTheme();
                     break;
 
                 case "Generic":
-                    AvalonDockTheme = new Xceed.Wpf.AvalonDock.Themes.GenericTheme();
+                    AvalonDockTheme = new AvalonDock.Themes.GenericTheme();
                     break;
 
                 case "Metro":
-                    AvalonDockTheme = new Xceed.Wpf.AvalonDock.Themes.MetroTheme();
+                    AvalonDockTheme = new AvalonDock.Themes.MetroTheme();
                     break;
 
                 case "VS2010":
-                    AvalonDockTheme = new Xceed.Wpf.AvalonDock.Themes.VS2010Theme();
+                    AvalonDockTheme = new AvalonDock.Themes.VS2010Theme();
                     break;
 
                 case "Aero":
-                    AvalonDockTheme = new Xceed.Wpf.AvalonDock.Themes.AeroTheme();
+                    AvalonDockTheme = new AvalonDock.Themes.AeroTheme();
                     break;
             }
         }

@@ -2,8 +2,8 @@
 using System.Windows.Input;
 using Workbench_Example.Model;
 using Workbench_Example.ViewModel.Tools;
-using Xceed.Wpf.AvalonDock;
-using Xceed.Wpf.AvalonDock.Layout.Serialization;
+using AvalonDock;
+using AvalonDock.Layout.Serialization;
 
 namespace Workbench_Example.ViewModel
 {
