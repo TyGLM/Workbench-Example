@@ -40,6 +40,7 @@
                 <!--File-->
                 <MenuItem Header="_File">
                     <MenuItem Header="E_xit" Command="{Binding ExitCommand}" />
+                    <MenuItem Header="Crash (Debug)" Command="{Binding CrashCommand}" />
                 </MenuItem>
                 <!--View-->
                 <MenuItem Header="_View">
@@ -160,7 +161,7 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="Auto"/>
             </Grid.ColumnDefinitions>
-            <Label Grid.Column="0" Content="{Binding StatusMessage}" Foreground="White" Margin="3,0" Padding="4" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Label Grid.Column="0" Content="{Binding StatusMessage}" Margin="3,0" Padding="4" HorizontalAlignment="Left" VerticalAlignment="Center"/>
         </Grid>
     </Grid>
 </controls:MetroWindow>

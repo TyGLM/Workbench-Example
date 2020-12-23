@@ -382,6 +382,26 @@ namespace Workbench_Example.ViewModel
             }
         }
 
+        private ICommand _CrashCommand;
+        /// <summary>
+        /// Shut down the application command
+        /// </summary>
+        public ICommand CrashCommand
+        {
+            get
+            {
+                if (_CrashCommand == null)
+                {
+                    _CrashCommand = new MVVMRelayCommand(
+                        execute =>
+                        {
+                            throw new NotSupportedException();
+                        });
+                }
+                return _CrashCommand;
+            }
+        }
+
         #endregion
 
         #region Events
