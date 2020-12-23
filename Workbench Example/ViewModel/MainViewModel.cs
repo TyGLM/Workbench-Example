@@ -416,7 +416,7 @@ namespace Workbench_Example.ViewModel
             string theme = Properties.Settings.Default.Theme;
             string themeAccent = Properties.Settings.Default.ThemeAccent;
             string themeWorkbench = Properties.Settings.Default.WorkBenchTheme;
-            ThemeManager.ChangeAppStyle(App.Current, ThemeManager.GetAccent(themeAccent), ThemeManager.GetAppTheme(theme));
+            //ThemeManager.ChangeAppStyle(App.Current, ThemeManager.GetAccent(themeAccent), ThemeManager.GetAppTheme(theme));
             ChangeWorkbenchTheme();     
         }
 

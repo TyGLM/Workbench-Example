@@ -4,7 +4,7 @@
         xmlns:avalonDock="https://github.com/Dirkster99/AvalonDock"
         xmlns:dock="https://github.com/Dirkster99/AvalonDock"  
         xmlns:converters="clr-namespace:Workbench_Example.Converters"
-        xmlns:controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
         xmlns:behavior="clr-namespace:Workbench_Example.View.Behavior"
         xmlns:views="clr-namespace:Workbench_Example.View"
         xmlns:pane="clr-namespace:Workbench_Example.View.Pane"          
@@ -12,7 +12,7 @@
         MinHeight="600" MinWidth="800"
         ShowIconOnTitleBar="True"
         SaveWindowPosition="True"
-        GlowBrush="{DynamicResource AccentColorBrush}"
+        GlowBrush="{DynamicResource MahApps.Brushes.Accent}"
         Closing="MetroWindow_Closing">
 
     <!--Window Input Bindings-->

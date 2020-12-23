@@ -53,7 +53,7 @@ namespace Workbench_Example.ViewModel
             : base("Start Page")
         {
             ContentID = ToolContentID;
-            ReadMe = File.ReadAllText("ReadMe.txt", Encoding.ASCII);
+            //ReadMe = File.ReadAllText("ReadMe.txt", Encoding.ASCII);
         }
 
         #endregion
