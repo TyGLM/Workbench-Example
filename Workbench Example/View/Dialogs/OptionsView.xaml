@@ -44,13 +44,9 @@
                 <Label Grid.Column="0" Grid.Row="0"  Margin="5" MinWidth="115" Content="Application Theme :"/>
                 <ComboBox Grid.Column="1" Grid.Row="0" Margin="5" MinWidth="115" ItemsSource="{Binding ThemeOptions}" SelectedItem="{Binding Theme}" VerticalAlignment="Center"/>
 
-                <!--Theme Accent-->
-                <Label Grid.Column="2" Grid.Row="0"  Margin="5" MinWidth="115" Content="Application Accent :"/>
-                <ComboBox Grid.Column="3" Grid.Row="0" Margin="5" MinWidth="115" ItemsSource="{Binding ThemeAccents}" SelectedItem="{Binding ThemeAccent}" VerticalAlignment="Center"/>
-
                 <!--Workbench Theme Option-->
-                <Label Grid.Column="0" Grid.Row="1"  Margin="5" MinWidth="115" Content="Workbench Theme :"/>
-                <ComboBox Grid.Column="1" Grid.Row="1" Margin="5" MinWidth="115" ItemsSource="{Binding WorkBenchThemes}" SelectedItem="{Binding WorkBenchTheme}" VerticalAlignment="Center"/>
+                <Label Grid.Column="2" Grid.Row="0"  Margin="5" MinWidth="115" Content="Workbench Theme :"/>
+                <ComboBox Grid.Column="3" Grid.Row="0" Margin="5" MinWidth="115" ItemsSource="{Binding WorkBenchThemes}" SelectedItem="{Binding WorkBenchTheme}" VerticalAlignment="Center"/>
             </Grid>
         </GroupBox>
 

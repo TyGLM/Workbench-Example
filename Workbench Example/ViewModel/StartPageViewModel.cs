@@ -54,6 +54,7 @@ namespace Workbench_Example.ViewModel
         {
             ContentID = ToolContentID;
             //ReadMe = File.ReadAllText("ReadMe.txt", Encoding.ASCII);
+            ReadMe = "Placeholder README";
         }
 
         #endregion

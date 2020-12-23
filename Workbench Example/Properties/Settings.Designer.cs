@@ -25,25 +25,13 @@ namespace Workbench_Example.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("BaseLight")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Light.Blue")]
         public string Theme {
             get {
                 return ((string)(this["Theme"]));
             }
             set {
                 this["Theme"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Blue")]
-        public string ThemeAccent {
-            get {
-                return ((string)(this["ThemeAccent"]));
-            }
-            set {
-                this["ThemeAccent"] = value;
             }
         }
         

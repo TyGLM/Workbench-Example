@@ -14,7 +14,7 @@ namespace Workbench_Example.ViewModel.Dialogs
         #region Fields
 
         private string _Theme;
-        private string _ThemeAccent;
+        //private string _ThemeAccent;
         private string _WorkBenchTheme;
 
         #endregion
@@ -92,22 +92,6 @@ namespace Workbench_Example.ViewModel.Dialogs
         }
 
         /// <summary>
-        /// Selected theme accent
-        /// </summary>
-        public string ThemeAccent
-        {
-            get { return Properties.Settings.Default.ThemeAccent; }
-            set
-            {
-                if (Properties.Settings.Default.ThemeAccent != value)
-                {
-                    Properties.Settings.Default.ThemeAccent = value;
-                    OnPropertyChanged("ThemeAccent");
-                }
-            }
-        }
-
-        /// <summary>
         /// Selected workbench theme
         /// </summary>
         public string WorkBenchTheme
@@ -153,11 +137,10 @@ namespace Workbench_Example.ViewModel.Dialogs
         /// </summary>
         public OptionsViewModel()
         {
-            _ThemeOptions = new ObservableCollection<string>() { "BaseDark", "BaseLight" };
-            _ThemeAccents = new ObservableCollection<string>() { "Red", "Green", "Blue", "Purple", "Orange", "Lime", "Emerald", "Teal", "Cyan", "Cobalt", "Indigo", "Violet", "Pink", "Magenta", "Crimson", "Amber", "Yellow", "Brown", "Olive", "Steel", "Mauve", "Taupe", "Sienna" };
-            _WorkBenchThemes = new ObservableCollection<string>() { "Dark", "Light", "Generic", "Metro", "VS2010", "Aero" };
+            _ThemeOptions = new ObservableCollection<string>() { "Light.Blue", "Dark.Steel" };
+            //Possible Accents: { "Red", "Green", "Blue", "Purple", "Orange", "Lime", "Emerald", "Teal", "Cyan", "Cobalt", "Indigo", "Violet", "Pink", "Magenta", "Crimson", "Amber", "Yellow", "Brown", "Olive", "Steel", "Mauve", "Taupe", "Sienna" };
+            _WorkBenchThemes = new ObservableCollection<string>() { "Dark", "Light", "Generic", "Metro", "VS2010", "VS2013Blue", "VS2013Light", "VS2013Dark" };
             _Theme = Properties.Settings.Default.Theme;
-            _ThemeAccent = Properties.Settings.Default.ThemeAccent;
             _WorkBenchTheme = Properties.Settings.Default.WorkBenchTheme;
             NotXClosed = false;
         }
@@ -252,9 +235,8 @@ namespace Workbench_Example.ViewModel.Dialogs
 
         private void SetToDefault()
         {
-            Theme = "BaseLight";
-            ThemeAccent = "Blue";
-            WorkBenchTheme = "Metro";      
+            Theme = "Light.Steel";
+            WorkBenchTheme = "VS2013Blue";      
         }
 
         public void Preview()
@@ -274,7 +256,7 @@ namespace Workbench_Example.ViewModel.Dialogs
         {
             NotXClosed = true;
             Theme = _Theme;
-            ThemeAccent = _ThemeAccent;
+            //ThemeAccent = _ThemeAccent;
             WorkBenchTheme = _WorkBenchTheme;
             Properties.Settings.Default.Save();
             OnRequestClose();

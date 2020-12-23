@@ -3,10 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="Theme" Type="System.String" Scope="User">
-      <Value Profile="(Default)">BaseLight</Value>
-    </Setting>
-    <Setting Name="ThemeAccent" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Blue</Value>
+      <Value Profile="(Default)">Light.Blue</Value>
     </Setting>
     <Setting Name="WorkBenchTheme" Type="System.String" Scope="User">
       <Value Profile="(Default)">Metro</Value>

@@ -13,6 +13,7 @@ using Workbench_Example.Resources.Services.Interfaces;
 using Workbench_Example.ViewModel.Tools;
 using AvalonDock.Themes;
 using MVVMRelayCommand = Workbench_Example.Model.RelayCommand;
+using ControlzEx.Theming;
 
 namespace Workbench_Example.ViewModel
 {
@@ -118,11 +119,11 @@ namespace Workbench_Example.ViewModel
             }
         }
 
-        private Theme _AvalonDockTheme;
+        private AvalonDock.Themes.Theme _AvalonDockTheme;
         /// <summary>
         /// Avalon dock theme enumeration
         /// </summary>
-        public Theme AvalonDockTheme
+        public AvalonDock.Themes.Theme AvalonDockTheme
         {
             get { return _AvalonDockTheme; }
             set
@@ -414,9 +415,8 @@ namespace Workbench_Example.ViewModel
             }
 
             string theme = Properties.Settings.Default.Theme;
-            string themeAccent = Properties.Settings.Default.ThemeAccent;
             string themeWorkbench = Properties.Settings.Default.WorkBenchTheme;
-            //ThemeManager.ChangeAppStyle(App.Current, ThemeManager.GetAccent(themeAccent), ThemeManager.GetAppTheme(theme));
+            ThemeManager.Current.ChangeTheme(App.Current, theme);
             ChangeWorkbenchTheme();     
         }
 
@@ -494,8 +494,16 @@ namespace Workbench_Example.ViewModel
                     AvalonDockTheme = new AvalonDock.Themes.VS2010Theme();
                     break;
 
-                case "Aero":
-                    AvalonDockTheme = new AvalonDock.Themes.AeroTheme();
+                case "VS2013Blue":
+                    AvalonDockTheme = new AvalonDock.Themes.Vs2013BlueTheme();
+                    break;
+
+                case "VS2013Light":
+                    AvalonDockTheme = new AvalonDock.Themes.Vs2013LightTheme();
+                    break;
+
+                case "VS2013Dark":
+                    AvalonDockTheme = new AvalonDock.Themes.Vs2013DarkTheme();
                     break;
             }
         }
